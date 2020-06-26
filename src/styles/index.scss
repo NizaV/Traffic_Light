@@ -11,3 +11,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.topLight, .mainLight {
+    background-color: black !important;
+}
+
+.topLight {
+    width: 10px !important;
+    height: 6em;
+}
+
+.mainLight {
+    width: 10em;
+    height:22rem;
+    border-radius: 10px;
+}
+
+.light {
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+}
+
+.glow {
+    box-shadow: -1px -1px 114px 60px rgba(255,255,224,1);
+}
